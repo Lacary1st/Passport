@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passport page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>MY VILLAGE PASSPORT</h1>
+    <div id="container">
+        <form action="" id="data">
+            <input type="text" oninput="name()" value="" id="name" placeholder="FULL-NAME"><br>
+            <input type="number" oninput="age()" value="" placeholder="AGE"><br>
+            <input type="text" oninput="pob()" value="" placeholder="PLACE OF BIRTH"><br>
+            <input type="email" oninput="email()" value="" placeholder="EMAIL"><br>
+            <input type="number" oninput="contact()" value="" placeholder="PHONE NUMBER">
+        </form>
+
+        <div id="datapage">
+            <div class="passport-img">
+                <img src="passport.jpg" alt="Oluwatomilola A.">
+            </div>
+
+            <div class="info">
+                <h4 id="fname">Name: <span id="fullname"></span></h4>
+                <h4 id="dob">Age: <span id="dateofbirth"></span></h4>
+                <h4 id="placeofbirth">Place of Birth: <span id="place"></span></h4>
+                <h4 id="mail">Email: <span id="electronicmail"></span></h4>
+                <h4 id="phoneno" >Phone-Number: <span id="telephone"></span></h4>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
