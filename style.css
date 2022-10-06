@@ -37,10 +37,13 @@ h1{
     width: 500px;
     display: flex;
 }
+@media screen {
+    
+}
 
 .passport-img img{
     padding: 15px;
-    width: 80%;
+    width: 100%;
 }
 .info{
     width:100% ;
@@ -49,7 +52,10 @@ h1{
 #datapage > div{
     width: 100%;
 }
-#datapage h4{
+#datapage p{
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
     font-variant: small-caps;
-    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
